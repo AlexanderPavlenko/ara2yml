@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require_relative '../lib/ara2yml'
+
+Ara2yml.convert(ARGV[0], ARGV[1])
